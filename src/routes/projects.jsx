@@ -75,7 +75,7 @@ export default function Projects() {
             <img src={BootstrapImage} className="mr-3" />
           </>
           } 
-        url="https://vercel.com/aziz13naufal/wpu-movie-db"
+        url="https://wpu-movie-db.vercel.app/"
         repo="https://github.com/aziz13naufal/WPU-movie-db"
         linkColor="black" 
         />
