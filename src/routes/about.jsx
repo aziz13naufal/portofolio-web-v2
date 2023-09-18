@@ -31,15 +31,15 @@ export default function About() {
                     <div className="">
                         <img src={HeroImg} className="w-64 h-40 rounded-sm object-cover object-top" />
                     </div>
-                    <p className="leading-6 mt-3 hidden">that's some information
+                    <p className="leading-6 mt-3 hidden sm:block">that's some information
                         <p>about me, thank you for</p>
                         <p>visiting my portfolio</p>
                         <p>website.</p>
                     </p>
                 </div>
             </div>
-            <div className="w-full md:w-[640px] mt-10">
-                <div className="text-3xl font-bold">
+            <div className="w-full md:w-[640px] mt-14">
+                <div className="text-3xl font-bold text-center">
                     <h1>Education</h1>
                 </div>
                 <div className="mt-5">
@@ -55,7 +55,7 @@ export default function About() {
                 </div>
             </div>
             <div className="w-full md:w-[640px] mt-10">
-                <div className="text-3xl font-bold">
+                <div className="text-3xl font-bold text-center">
                     <h1>Work Experience</h1>
                 </div>
                 <div className="mt-5">
