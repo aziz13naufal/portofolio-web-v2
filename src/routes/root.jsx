@@ -49,19 +49,29 @@ export default function Root() {
             <div className="z-20 w-[90%] h-[61px] fixed mx-auto top-0 left-0 px-6 right-0 mt-7 bg-[#f1eae4] rounded-full md:w-fit md:flex md:items-center">
                 <ul className={`uppercase absolute top-0 right-0 mt-[70px] text-right bg-[#513c2c] rounded-md border border-[#af8c72] ${isClicked ? 'visible' : 'invisible'} md:visible md:border-none md:relative md:mt-0 md:bg-transparent md:text-start md:flex md:justify-evenly`} onClick={toggleNavbar}>
                     <li className="text-[#f1eae4] px-3 pt-2 block md:inline md:pt-0 md:px-0">
-                        <Link to={links[0].path} className="w-full block pl-10 pr-2 py-[2px] rounded-md hover:bg-[#765c49] md:inline md:pl-0 md:mx-9 md:pr-0 md:hover:bg-[#f1eae4] md:text-[#513c2c]">{links[0].text}</Link>
+                        <Link
+                        to={links[0].path}
+                        className={`w-full block pl-10 pr-2 py-[2px] rounded-md hover:bg-[#765c49] md:inline md:pl-0 md:mx-9 md:pr-0 md:hover:bg-[#f1eae4] md:hover:text-[#000000] ` + (location.pathname === links[0].path ? 'md:text-[#000000]' : 'md:text-[#513c2c]')}>{links[0].text}</Link>
                     </li>
                     <li className="text-[#f1eae4] px-3 block md:inline md:px-0">
-                        <Link to={links[1].path} className="w-full block pl-10 pr-2 py-[2px] rounded-md hover:bg-[#765c49] md:inline md:pl-0 md:mx-9 md:pr-0 md:hover:bg-[#f1eae4] md:text-[#513c2c]">{links[1].text}</Link>
+                        <Link
+                        to={links[1].path}
+                        className={`w-full block pl-10 pr-2 py-[2px] rounded-md hover:bg-[#765c49] md:inline md:pl-0 md:mx-9 md:pr-0 md:hover:bg-[#f1eae4] md:hover:text-[#000000] ` + (location.pathname === links[1].path ? 'md:text-[#000000]' : 'md:text-[#513c2c]')}>{links[1].text}</Link>
                     </li>
                     <li className="text-[#f1eae4] px-3 block md:inline md:px-0">
-                        <Link to={links[2].path} className="w-full block pl-10 pr-2 py-[2px] rounded-md hover:bg-[#765c49] md:inline md:pl-0 md:mx-9 md:pr-0 md:hover:bg-[#f1eae4] md:text-[#513c2c]">{links[2].text}</Link>
+                        <Link
+                        to={links[2].path}
+                        className={`w-full block pl-10 pr-2 py-[2px] rounded-md hover:bg-[#765c49] md:inline md:pl-0 md:mx-9 md:pr-0 md:hover:bg-[#f1eae4] md:hover:text-[#000000] ` + (location.pathname === links[2].path ? 'md:text-[#000000]' : 'md:text-[#513c2c]')}>{links[2].text}</Link>
                     </li>
                     <li className="text-[#f1eae4] px-3 block md:inline md:px-0">
-                        <Link to={links[3].path} className="w-full block pl-10 pr-2 py-[2px] rounded-md hover:bg-[#765c49] md:inline md:pl-0 md:mx-9 md:pr-0 md:hover:bg-[#f1eae4] md:text-[#513c2c]">{links[3].text}</Link>
+                        <Link
+                        to={links[3].path}
+                        className={`w-full block pl-10 pr-2 py-[2px] rounded-md hover:bg-[#765c49] md:inline md:pl-0 md:mx-9 md:pr-0 md:hover:bg-[#f1eae4] md:hover:text-[#000000] ` + (location.pathname === links[3].path ? 'md:text-[#000000]' : 'md:text-[#513c2c]')}>{links[3].text}</Link>
                     </li>
                     <li className="text-[#f1eae4] px-3 pb-2 block md:inline md:pb-0 md:px-0">
-                        <Link to={links[4].path} className="w-full block pl-10 pr-2 py-[2px] rounded-md hover:bg-[#765c49] md:inline md:pl-0 md:mx-9 md:pr-0 md:hover:bg-[#f1eae4] md:text-[#513c2c]">{links[4].text}</Link>
+                        <Link
+                        to={links[4].path}
+                        className={`w-full block pl-10 pr-2 py-[2px] rounded-md hover:bg-[#765c49] md:inline md:pl-0 md:mx-9 md:pr-0 md:hover:bg-[#f1eae4] md:hover:text-[#000000] ` + (location.pathname === links[4].path ? 'md:text-[#000000]' : 'md:text-[#513c2c]')}>{links[4].text}</Link>
                     </li>
                 </ul>
                 <ul className="absolute right-0 top-0 bottom-0 mt-[18px] mr-6 cursor-pointer md:hidden" onClick={toggleNavbar}>
