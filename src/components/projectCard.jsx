@@ -12,7 +12,7 @@ export default function ProjectCard(props) {
                     <div className="font-normal text-base mt-2">{props.desc}</div>
                 </div>
                 <div className="flex items-end" id="card-icon">
-                    <div className=" bottom-0 mb-2 ml-2 flex justify-center h-[20px]">
+                    <div className=" bottom-0 mb-2 ml-2 flex w-full justify-start h-[20px]">
                         {props.techStack}
                     </div>
                     <div className="absolute flex top-0 right-0 mt-2 mr-2">
