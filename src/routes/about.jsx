@@ -1,4 +1,6 @@
 import HeroImg from "../assets/img/hero-1.jpg"
+import Sertifikat1 from "../assets/img/sertifikat-1.jpg"
+import Sertifikat2 from "../assets/img/sertifikat-2.jpg"
 
 export default function About() {
     return (
@@ -78,6 +80,17 @@ export default function About() {
                             </ul>
                         </li>
                     </ol>
+                </div>
+            </div>
+            <div className="w-full md:w-[640px] mt-10">
+                <div className="text-3xl font-bold text-center mb-8">
+                    <h1>Certificate</h1>
+                </div>
+                <div className="shadow-black shadow-lg mb-9">
+                    <img src={Sertifikat1} alt="" />
+                </div>
+                <div className="shadow-black shadow-lg mb-9">
+                    <img src={Sertifikat2} alt="" />
                 </div>
             </div>
         </div>
