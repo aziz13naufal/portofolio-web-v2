@@ -1,7 +1,7 @@
 import HeroImg from "../assets/img/hero-1.jpg"
 import Sertifikat1 from "../assets/img/sertifikat-1.jpg"
 import Sertifikat2 from "../assets/img/sertifikat-2.jpg"
-import Sertifikat3 from "../assets/img/sertifikat-3.jpg"
+import Sertifikat3 from "../assets/img/sertifikat-3.png"
 
 export default function About() {
     return (
